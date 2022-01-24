@@ -1,0 +1,376 @@
+/* ====================FONTES===================== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/*================================================ */
+:root{
+    --cor1: #0D6EFD;
+    --cor2: white;
+    --fonteh1: 'Open Sans', sans-serif;
+    --fonteh2: 'Oswald', sans-serif;
+    --fonteh3: 'Roboto', sans-serif;
+    --fonteparagrafo: 'Lato', sans-serif;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    border: 0px;
+
+}
+
+
+h1, h2, h3, p{
+    text-align: center;
+}
+h1{
+    font-family: var(--fonteh1);
+    font-size: 2.8em;
+}
+h2{
+    font-family: var(--fonteh2);
+    font-size: 2.5em;
+    
+}
+h3{
+    font-family: var(--fonteh3);
+    font-size: 2em;
+}
+h4{
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+p{
+    font-family: var(--fonteparagrafo);
+    font-size: 1.2em;
+}
+hr{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+div#titulo-topo{
+    padding: 20px;
+}
+section#topo{
+    padding-bottom: 60px;
+}
+section#topo img{
+    border-radius: 50%;
+    width: 50%;
+    width: 50%;
+    margin-bottom: 20px;
+    
+}
+section#topo h1{
+    font-size: 2.8em;
+    font-family: var(--fonteh1);
+}
+section#topo h2{
+    font-size: 2.5em;
+}
+section#topo h3{
+    font-size: 2em;
+    font-family: var(--fonteh3);
+}
+section#topo p{
+    font-size: 1.2em;
+    font-family: var(--fonteparagrafo);
+    text-align: justify;
+    text-indent: 20px;
+}
+section#topo a{
+    color:var(--cor1);
+    font-size: 2em;
+}
+section#topo i{
+    margin-bottom: 20px;;
+}
+div#resumo{
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+div#caixa-perfil{
+
+}
+section#conhecimentos{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+section#conhecimentos i{
+    font-size: 3em;
+    color: var(--cor1);
+    margin-bottom: 30px;
+}
+section#conhecimentos h3{
+    font-size: 1em;
+    font-family: var(--fonteh3);
+    text-align: center;
+    
+}
+section#conhecimentos > #container #icones-conhecimentos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+section#conhecimentos > #container #icones-conhecimentos .icone{
+    text-align: center;
+    margin: 10px;
+    width: 10%;
+}
+
+section#servicos {
+    text-align: center;
+    padding:30px;
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+
+section#servicos h3{
+    font-size: 1.4em;
+    font-family: var(--fonteh3);
+}
+section#servicos p{
+    padding: 10px;
+    font-family: var(--fonteparagrafo);
+    text-align: justify;
+    text-indent: 20px;
+}
+
+section#servicos article {
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: row;
+}
+
+section#servicos article .caixa-servico{
+    margin: 10px;
+    width: 20%;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+
+}
+section#portfolio{
+    padding:60px;
+}
+
+section#portfolio > #modelos-sites{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+section#portfolio > #modelos-sites div.card{
+    padding: 10px;
+    width: 18rem;
+}
+
+section#metodologia{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 50%;
+    margin: auto;
+}
+section#metodologia h2{
+    margin-bottom: 30px;
+    font-family: var(--fonteh2);
+}
+section#metodologia h3{
+    margin-bottom: 30px;
+    font-family: var(--fonteh3);
+    font-size: 1.4em;
+    
+}
+
+section#metodologia #caixa-scrollspy{
+    display: flex;
+    justify-content: center;
+    
+}
+section#metodologia #caixa-scrollspy p{
+    font-family: var(--fonteparagrafo);
+    text-align: justify;
+    text-indent: 20px;
+    
+}
+section#metodologia #caixa-scrollspy #caixa{
+    padding: 20px;
+    text-align:center;
+    height: 300px;
+    overflow: scroll;
+}
+
+section#contato{
+
+}
+section#contato i{
+    color:var(--cor1);
+    font-size: 3em;
+    padding: 30px;
+    
+}
+section#contato #div-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+footer{
+    margin-top: 30px;;
+    background-color:var(--cor1);
+    padding: 30px;
+    color: var(--cor2);
+}
+footer h3{
+    font-family: var(--fonteh2);
+    font-size: 1.5em;
+}
+footer p{
+    font-family: var(--fonteparagrafo);
+    font-size: 1.2em;
+}
+
+/* MEDIA QUERY */
+
+@media(max-width:900px){
+    section#servicos article {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    section#servicos article .caixa-servico{
+        margin: 10px;
+        width: 90%;
+        padding: 10px;
+        box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+    
+    }
+    section#metodologia{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media(max-width:720px){
+    h1{
+        font-family: var(--fonteh1);
+        font-size: 2em;
+    }
+    h2{
+        font-family: var(--fonteh2);
+        font-size: 1.6em;
+        
+    }
+    h3{
+        font-family: var(--fonteh3);
+        font-size: 1.3em;
+    }
+    h4{
+        text-align: center;
+        font-size: 1.1em;
+    }
+    h5{
+        text-align: center;
+        font-size: 1.1em;
+    }
+    p{
+        font-family: var(--fonteparagrafo);
+        font-size: 0.8em;
+    }
+    div#resumo{
+        box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        width: 80%;
+    }
+    #caixa-perfil p {
+        padding: 10px;
+    }
+    section#conhecimentos > #container #icones-conhecimentos .icone h3{
+        font-size: 0.7em;
+    }
+
+}
+@media(max-width:992px){
+
+    section#portfolio > article#modelos-sites > div.conteiner > div.row  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+@media(max-width:576px){
+    section#topo h1{
+        font-size: 1.5em;
+        font-family: var(--fonteh1);
+    }
+    section#conhecimentos > #container #icones-conhecimentos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    section#conhecimentos > #container #icones-conhecimentos .icone i {
+        font-size: 5em;
+        
+    }
+    section#conhecimentos > #container #icones-conhecimentos .icone h3{
+        font-size: 1em;
+        
+    } 
+    section#conhecimentos > #container #icones-conhecimentos .icone{
+        width: 30%;
+        
+    }
+
+    footer p{
+        font-family: var(--fonteparagrafo);
+        font-size: 0.8em;
+    }
+    footer h3{
+        font-family: var(--fonteparagrafo);
+        font-size: 1em;
+    }
+    section#contato i{
+        color:var(--cor1);
+        font-size: 2em;
+        padding: 30px;
+        
+    } 
+    section#topo h1{
+        font-size: 1.8em;
+    }
+    section#topo h2{
+        font-size: 1.6em;
+    }
+    section#topo h3{
+        font-size: 1.3em;
+    }
+    section#topo p{
+        font-size: 0.8em;
+    }
+    #lista{
+        width: 40%;
+    }   
+    #lista a{
+        font-size: 0.7em;
+    }   
+}
